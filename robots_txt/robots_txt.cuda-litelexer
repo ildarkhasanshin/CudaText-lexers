@@ -1,5 +1,5 @@
 {
-  "about": "robots.txt-lexer by Alexey Torgashin",
+  "about": "Lexer by Alexey Torgashin",
   "files": "robots.txt",
   "cmt_line": "#",
   "case_sens": false,
