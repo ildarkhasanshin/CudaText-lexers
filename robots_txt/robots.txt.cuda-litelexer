@@ -1,0 +1,24 @@
+{
+  "about": "robots.txt-lexer by Alexey Torgashin",
+  "files": "robots.txt",
+  "cmt_line": "#",
+  "case_sens": false,
+  "rules": {
+    "cmt": {
+      "regex": "\\#.*",
+      "style": "Comment"
+    },
+    "const": {
+      "regex": "^(User-agent|Disallow|Allow|Sitemap|Host|Crawl-delay|Clean-param)\\b",
+      "style": "Id1"
+    },
+    "eq": {
+      "regex": ":",
+      "style": "Symbol"
+    },
+    "val": {
+      "regex": "\\S+",
+      "style": "String"
+    }
+  }
+}
